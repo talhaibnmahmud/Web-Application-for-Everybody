@@ -68,15 +68,15 @@ if ( isset($_REQUEST['name']) ) {
 ?>
 
 <form method="post">
-<select name="human">
+<select name="human" class="form-control">
 <option value="-1">Select</option>
 <option value="0">Rock</option>
 <option value="1">Paper</option>
 <option value="2">Scissors</option>
 <option value="3">Test</option>
 </select>
-<input type="submit" value="Play">
-<input type="submit" name="logout" value="Logout">
+<input type="submit" value="Play" class="btn btn-primary">
+<input type="submit" name="logout" value="Logout" class="btn btn-danger">
 </form>
 
 <pre>
